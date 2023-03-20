@@ -265,7 +265,8 @@ for elem in range(len(Input_string)):
             temp.append(conclu)
     else:
         temp.append("Conclusion not Found")
-    outer_temp_con.append(' '.join(temp))
+    print(temp)
+    outer_temp_con.append(' '.join(temp[0]))
 
 # outer_temp_con
 # key_words = input('Enter key_words of a list separated by space ')
